@@ -3,6 +3,7 @@
 ## 📘 Project Overview  
 This project demonstrates **real-time EC2 instance monitoring using Amazon CloudWatch**, integrated with **SNS notifications** for instant alerts.  
 It simulates a real-world **Cloud Operations** scenario where engineers proactively monitor server performance and receive automated alerts when CPU usage exceeds a set threshold.
+
 ---
 ## 🎯 Objective  
 > Automatically monitor CPU utilization of an EC2 instance and send an SMS/Email alert when CPU usage exceeds a specified threshold (e.g., 70%).
