@@ -1,9 +1,5 @@
 # ☁️ AWS CloudWatch Monitoring and Alert System  
-
-![AWS CloudWatch Diagram](https://raw.githubusercontent.com/Praju005/AWS-CloudWatch-Monitoring-and-Alert-System/main/assets/cloudwatch-architecture.png)
-
 ---
-
 ## 📘 Project Overview  
 This project demonstrates **real-time EC2 instance monitoring using Amazon CloudWatch**, integrated with **SNS notifications** for instant alerts.  
 Where engineers proactively monitor server performance and receive automated alerts when CPU usage exceeds a set threshold.  
