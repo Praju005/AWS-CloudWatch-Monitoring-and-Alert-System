@@ -17,29 +17,6 @@ It simulates a real-world **Cloud Operations** scenario where engineers proactiv
 | **Amazon CloudWatch** | Monitors and visualizes performance metrics like CPU usage |
 | **Amazon SNS (Simple Notification Service)** | Sends alerts via SMS or Email when alarm thresholds are breached |
 
----
-
-## 🏗️ Architecture  
-
-┌────────────────┐
-│ EC2 Server │
-│ (Monitored Node)│
-└──────┬──────────┘
-│ CPU Metrics
-▼
-┌────────────────┐
-│ CloudWatch │
-│ (Monitoring) │
-└──────┬──────────┘
-│ Alarm Trigger
-▼
-┌────────────────┐
-│ SNS Topic │
-│ (SMS / Email) │
-└────────────────┘
-
----
-
 ## ⚙️ Step-by-Step Implementation  
 
 ### 1️⃣ Launch an EC2 Instance  
